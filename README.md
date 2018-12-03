@@ -12,6 +12,9 @@
 			php artisan serve
 ### Bắt đầu sử dụng ở localhost cổng 8000
 
+### Có thể xem các route cũng như api route sử dụng câu lệnh
+			php artisan route:list
+
 @@ Lưu ý : Do nhóm sử dụng API của Cloudinary nên phần code up lên sẽ không có token
 			để gửi ảnh lên cloud. Nếu muốn sử dụng tính năng này, bạn có thể tạo 1 tài khoản
 			và điền các token còn thiếu vào file .env.
